@@ -46,13 +46,13 @@ Hands-on-Spark-API/
 
 outputs/
 ├── task1_user_favorite_genres/
-│   └── part-*.csv
+│   └── part-00000-18bbbf54-8946-47f9-9fde-94e40dbeb476-c000.csv
 ├── task2_average_listen_time/
-│   └── part-*.csv
+│   └── part-00000-aa07c92f-3def-473f-b037-456871c6cf34-c000.csv
 ├── task3_genre_loyalty_top10/
-│   └── part-*.csv
+│   └── part-00000-55275dbe-6e44-475a-85b8-2bfff423cd29-c000.csv
 └── task4_night_owl_users/
-    └── part-*.csv
+    └── part-00000-59313d9e-accb-4285-9fac-7187e07f9a2f-c000.csv
 
 ## Tasks and Outputs
 
