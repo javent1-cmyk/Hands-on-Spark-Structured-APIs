@@ -12,7 +12,7 @@ songs = spark.read.csv("songs_metadata.csv", header=True, inferSchema=True)
 
 joined = logs.join(songs, on="song_id", how="inner")
 print("JOINED COUNT:", joined.count())
---joined = logs.join(songs, on="song_id", how="inner")--
+#joined = logs.join(songs, on="song_id", how="inner")--
 
 # Task 1: User Favorite Genres
 genre_counts = joined.groupBy("user_id", "genre").agg(count("*").alias("listen_count"))
